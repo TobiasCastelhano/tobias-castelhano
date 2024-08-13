@@ -82,7 +82,7 @@
   display: inline-block;
   margin-inline: 1.5%;
   margin-block: 20px;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(170, 170, 170);
 }
 
 .servi {
@@ -104,8 +104,8 @@
   padding: 50px;
 }
 
-.footer {
+footer {
   text-align: center;
   margin: 15px;
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(170, 170, 170);
 }/*# sourceMappingURL=style.css.map */
