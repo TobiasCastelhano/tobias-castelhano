@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+}
+.fondo {
+  background-image: url("./../img/logo png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.fondo2 {
+  background-image: url("./../img/logo barra superior.jpg");
+  background-size: auto;
+  background-position: center center;
+  margin: 10px;
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.vcdt {
+  display: inline-block;
+  margin-inline: 40px;
+  margin-block: 10px;
+}
+.vcdt .autdc {
+  width: 100%;
+}
+.vcdt .txtdtc {
+  color: rgb(255, 255, 255);
+  width: 700px;
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.phistoria {
+  display: flex;
+  padding: 50px;
+  gap: 25px;
+}
+.phistoria .historiamb {
+  width: 600px;
+  background-color: rgb(170, 170, 170);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.phistoria .historiaimg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fechab {
+  padding-inline: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modelos {
+  display: inline-block;
+  margin-inline: 1.5%;
+  margin-block: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.servi {
+  list-style-position: inside;
+}
+
+.servi1 {
+  width: 100%;
+  background-color: rgb(170, 170, 170);
+  padding: 50px;
+}
+
+.formu {
+  font-size: 25px;
+  background-color: rgb(170, 170, 170);
+  display: inline-block;
+  margin-inline: 1.5%;
+  margin-block: 50px;
+  padding: 50px;
+}
+
+.footer {
+  text-align: center;
+  margin: 15px;
+  background-color: rgb(110, 110, 110);
+}/*# sourceMappingURL=style.css.map */
