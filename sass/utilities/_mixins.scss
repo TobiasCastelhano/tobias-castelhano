@@ -1,5 +1,8 @@
 @mixin mobile {
     @media screen and (max-width:480px) {
+        .vcdt{
+            width: 50%;
+        }
         @content;
     }
 

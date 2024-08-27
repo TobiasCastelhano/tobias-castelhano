@@ -1,23 +1,87 @@
 .vcdt {
-    display: inline-block;
-    margin-inline: 40px;
-    margin-block: 10px;
-    .autdc {
-        width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "autdc1  autdc1   txtdtc1  ......"
+      "......  txtdtc2  autdc2   autdc2"
+      "autdc3  autdc3   txtdtc3  ......"
+      "......  txtdtc4  autdc4   autdc4";
+      .autdc1{
+        grid-area: autdc1;
+        width: 80%;
+        margin: 10%;
+        padding: 5%;
+      }
+      .autdc2{
+        grid-area: autdc2;
+        width: 80%;
+        margin: 10%;
+        padding: 5%;
+      }
+      .autdc3{
+        grid-area: autdc3;
+        width: 80%;
+        margin: 10%;
+        padding: 5%;
+      }
+      .autdc4{
+        grid-area: autdc4;
+        width: 80%;
+        margin: 10%;
+        padding: 5%;
+      }
+      .txtdtc1{
+        grid-area: txtdtc1;
+        color: rgb(255, 255, 255);
+        width: 500px;
+        background-color: black;
+        margin: 5%;
+        padding: 5%;
+        font-size: 140%;
+      }
+      .txtdtc2{
+        grid-area: txtdtc2;
+        color: rgb(255, 255, 255);
+        width: 500px;
+        background-color: black;
+        margin: 5%;
+        padding: 5%;
+        font-size: 140%;
+      }
+      .txtdtc3{
+        grid-area: txtdtc3;
+        color: rgb(255, 255, 255);
+        width: 500px;
+        background-color: black;
+        margin: 5%;
+        padding: 5%;
+        font-size: 140%;
+      }
+      .txtdtc4{
+        grid-area: txtdtc4;
+        color: rgb(255, 255, 255);
+        width: 500px;
+        background-color: black;
+        margin: 5%;
+        padding: 5%;
+        font-size: 140%;
+
+      }
     }
-    .txtdtc {
-    color: rgb(255, 255, 255);
-    width: 700px;
-    background-color: black;
-    margin: 20px;
-    padding: 20px;
-  }
-}
+
 .phistoria {
     display: flex;
     padding: 50px;
     gap: 25px;
-    .historiamb {
+}
+.historiamb {
     width: 600px;
     background-color: rgb(170, 170, 170);
     border-radius: 10px;
@@ -26,14 +90,23 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-      
+  }
+  .txtdtc5{
+    grid-area: txtdtc4;
+    color: rgb(255, 255, 255);
+    width: 700px;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    font-size: 120%;
+
   }
   .historiaimg {
     width: 100%;
     height: auto;
     display: block;
   }
-}
+
 .fechab {
     padding-inline: 10px;
     padding-bottom: 10px;
