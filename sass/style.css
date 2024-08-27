@@ -104,22 +104,45 @@
   padding: 5%;
   font-size: 140%;
 }
+@media screen and (max-width: 480px) {
+  .vcdt {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vcdt {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .phistoria {
   display: flex;
-  padding: 50px;
-  gap: 25px;
+  padding: 20px;
+  gap: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .phistoria {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .phistoria {
+    flex-direction: column;
+  }
 }
 
 .historiamb {
-  width: 600px;
+  flex-basis: 100%;
   background-color: rgb(170, 170, 170);
   border-radius: 10px;
   overflow: hidden;
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
+  overflow: hidden;
 }
 
 .txtdtc5 {
@@ -130,6 +153,24 @@
   margin: 20px;
   padding: 20px;
   font-size: 120%;
+}
+@media screen and (max-width: 480px) {
+  .txtdtc5 {
+    text-align: left;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .txtdtc5 {
+    text-align: left;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    font-size: 20px;
+  }
 }
 
 .historiaimg {
@@ -147,9 +188,19 @@
 
 .modelos {
   display: inline-block;
-  margin-inline: 1.5%;
-  margin-block: 20px;
+  margin-inline: 5%;
+  margin-block: 2.5%;
   background-color: rgb(170, 170, 170);
+}
+@media screen and (max-width: 480px) {
+  .modelos {
+    margin: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modelos {
+    margin: 7.5%;
+  }
 }
 
 .servi {
@@ -169,6 +220,12 @@
   margin-inline: 1.5%;
   margin-block: 50px;
   padding: 50px;
+}
+@media screen and (max-width: 768px) {
+  .formu {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 footer {

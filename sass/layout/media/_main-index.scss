@@ -70,23 +70,38 @@
     margin: 5%;
     padding: 5%;
     font-size: 140%;
+}
+  @include mobile {
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+  @include tablet {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 .phistoria {
   display: flex;
-  padding: 50px;
-  gap: 25px;
+  padding: 20px;
+  gap: 2rem;
+  @include mobile {
+    flex-direction: column;
+}
+  @include tablet {
+    flex-direction: column;
+  }
 }
 .historiamb {
-  width: 600px;
+  flex-basis: 100%;
   background-color: rgb(170, 170, 170);
   border-radius: 10px;
   overflow: hidden;
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
+  overflow: hidden;
 }
 .txtdtc5 {
   grid-area: txtdtc4;
@@ -96,6 +111,22 @@
   margin: 20px;
   padding: 20px;
   font-size: 120%;
+
+  @include mobile {
+    text-align:left;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    font-size: 15px;
+  }
+
+  @include tablet {
+    text-align:left;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    font-size: 20px;
+  }
 }
 .historiaimg {
   width: 100%;
@@ -111,9 +142,18 @@
 }
 .modelos {
   display: inline-block;
-  margin-inline: 1.5%;
-  margin-block: 20px;
+  margin-inline: 5%;
+  margin-block: 2.5%;
   background-color: rgb(170, 170, 170);
+  
+  @include mobile {
+    margin: 25%;
+  }
+
+  @include tablet {
+    margin: 7.5%;
+  }
+
 }
 .servi {
   list-style-position: inside;
@@ -130,4 +170,9 @@
   margin-inline: 1.5%;
   margin-block: 50px;
   padding: 50px;
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
