@@ -1,11 +1,10 @@
+@import "./utilities/variables";
 
-    @import "./utilities/variables";
+@import "./base/reset";
+@import "./base/typografias";
 
-    @import "./base/reset";
-    @import "./base/typografias";
+@import "./layout/media/header";
+@import "./layout/media/main-index";
+@import "./layout/media/footer";
 
-    @import "./layout/media/header";
-    @import "./layout/media/main-index";
-    @import "./layout/media/footer";
-    
-    @import "./utilities/mixins";
+@import "./utilities/mixins";

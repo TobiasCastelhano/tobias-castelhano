@@ -1,23 +1,23 @@
 .fondo {
-    background-image: url("./../img/logo\ png.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-  .fondo2 {
-    background-image: url("./../img/logo\ barra\ superior.jpg");
-    background-size: auto;
-    background-position: center center;
-    margin: 10px;
-  }
-  .titulo {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-family: "Libre Baskerville", serif;
-    font-size: 30px;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
+  background-image: url("./../img/logo\ png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.fondo2 {
+  background-image: url("./../img/logo\ barra\ superior.jpg");
+  background-size: auto;
+  background-position: center center;
+  margin: 10px;
+}
+.titulo {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
